@@ -17,7 +17,7 @@ int main()
 	kt_SCP(n);
 	if(kt_SCP(n)==true)
 	{
-		
+		cout<<"\nLa so chinh phuong."<<endl;
 	}else{
 		cout<<"\nko phai so chinh phuong"<<endl;
 	}
