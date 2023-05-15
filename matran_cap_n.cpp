@@ -27,7 +27,7 @@ void xuat(int a[max][max], int n)
 }
 int min(int a[max][max], int n)
 {
-	int min=a[0][n=1];
+	int min=a[0][n-1];
 	for(int i=0; i<n; i++)
 	{
 		if(a[i][n-i-1]<min){
